@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xstatusbar.xposedmod.qxtx.xstatusbar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--是否属于xposed模块-->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true"/>
+
+        <!--模块的描述-->
+        <meta-data
+            android:name="xposeddescription"
+            android:value="让状态栏显示日期"/>
+
+        <!--支持的xposed最低版本-->
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54"/>
+    </application>
+</manifest>
